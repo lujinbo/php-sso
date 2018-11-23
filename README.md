@@ -10,7 +10,7 @@
 
 3、用户浏览器将vt令牌传给client端
 
-4、client 远程验证vt（token）的有效性（server/api.php）
+4、client 远程验证vt（token）的有效性 server/api.php
 
 5、成功则返回用户信息，client端创建局部会话，并将受限资源返回给用户浏览器
 
@@ -26,7 +26,7 @@
 
 5、server端携带令牌重定向到用户浏览器，用户浏览器将vt令牌传给client端
 
-6、client 远程验证vt（token）的有效性（server/api.php）
+6、client 远程验证vt（token）的有效性 server/api.php
 
 7、成功则返回用户信息，client端创建局部会话，并将受限资源返回给用户浏览器
 
